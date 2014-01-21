@@ -1,12 +1,46 @@
-table
-{
-    border:1px;
+body {
+    color:white;
 }
 
 h1 {
-    font-size: 20pt;
+    font-size: 300%;
+    text-align: center;
+    color: firebrick;
+
 }
 
-body {
-    background-color:aqua ;
+.home{
+    color: yellow;
+}
+
+#clothing {
+    border: 1px double;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.quad1 {
+    background-color: white;
+    width: 20%;
+    height: 20%;
+}
+
+.quad2 {
+    background-color: gold;
+    width: 80%;
+    height:20%;
+}
+
+.quad3 {
+    background-color: darkolivegreen;
+    width: 20%;
+    height: 600px;
+}
+
+.quad4 {
+    background-color: firebrick;
+    width: 80%;
+    height: 600px;
 }
