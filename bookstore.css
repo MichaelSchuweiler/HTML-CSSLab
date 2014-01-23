@@ -9,10 +9,11 @@ h2 {
 }
 
 h1{
-    font-size: 300%;
+    font-size: 380%;
     text-align: center;
     vertical-align: top;
     color: firebrick;
+    text-shadow: 5px 5px 5px white;
 }
 
 img {
@@ -36,6 +37,7 @@ img {
     width: 20%;
     height: 515px;
     vertical-align: top;
+    text-align: center;
 }
 
 .quad4 {
@@ -59,7 +61,7 @@ iframe {
     font-size: 20pt;
 }
 
-a:hover {
+/*a:hover {
     color: white;
 }
 
@@ -69,13 +71,54 @@ a:active, a:visited {
 
 a:link {
     color: white;
-}
+}*/
 
 .books td {
     border: 2px double;
 }
 
-.home {
+#home {
     font-size: 18pt;
     color: white;
+    text-align: center;
+}
+
+footer {
+    vertical-align: baseline;
+}
+
+.list{
+    font-size: 18pt;
+}
+
+.button {
+    border-top: 1px solid #000000;
+    background: #fafafa;
+    background: -webkit-gradient(linear, left top, left bottom, from(#aebbc4), to(#fafafa));
+    background: -webkit-linear-gradient(top, #aebbc4, #fafafa);
+    background: -moz-linear-gradient(top, #aebbc4, #fafafa);
+    background: -ms-linear-gradient(top, #aebbc4, #fafafa);
+    background: -o-linear-gradient(top, #aebbc4, #fafafa);
+    padding: 9.5px 19px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: #962121;
+    font-size: 18px;
+    font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.button:hover {
+    border-top-color: #f7f7f7;
+    background: #f7f7f7;
+    color: #f0f0f0;
+}
+.button:active {
+    border-top-color: #6e6f70;
+    background: #6e6f70;
 }
