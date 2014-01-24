@@ -57,22 +57,6 @@ iframe {
     width: 350px;
 }
 
-.clothingtable {
-    font-size: 20pt;
-}
-
-/*a:hover {
-    color: white;
-}
-
-a:active, a:visited {
-    color: gold;
-}
-
-a:link {
-    color: white;
-}*/
-
 .books td {
     border: 2px double;
 }
@@ -87,7 +71,7 @@ footer {
     vertical-align: baseline;
 }
 
-.list{
+.list, .clothingtable{
     font-size: 18pt;
 }
 
@@ -99,7 +83,7 @@ footer {
     background: -moz-linear-gradient(top, #aebbc4, #fafafa);
     background: -ms-linear-gradient(top, #aebbc4, #fafafa);
     background: -o-linear-gradient(top, #aebbc4, #fafafa);
-    padding: 9.5px 19px;
+    padding: 10px 19px;
     -webkit-border-radius: 9px;
     -moz-border-radius: 9px;
     border-radius: 9px;
@@ -113,11 +97,13 @@ footer {
     text-decoration: none;
     vertical-align: middle;
 }
+
 .button:hover {
     border-top-color: #f7f7f7;
     background: #f7f7f7;
     color: #f0f0f0;
 }
+
 .button:active {
     border-top-color: #6e6f70;
     background: #6e6f70;
